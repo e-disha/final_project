@@ -1,0 +1,229 @@
+@media screen and (max-width:800px) {  
+    .imazhi{
+      display: none;
+    }
+  }
+
+  @keyframes imazhiReact {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+
+/* LOGOJA E REACT */
+.imazhiReact{
+    height: 281px;
+    width: 324px;    
+}
+
+/* LOGOJA E REACT QE RROTULLOHET */
+.imazhiReact {
+    animation: rotation 6s;
+  }
+  
+  .linear {
+    animation-timing-function: linear;
+  }
+  
+  .infinite {
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+#react-word{
+    color: rgba(97,219,251,255);
+}
+
+/* EFEKTI PER 3 IKONAT, HTML CSS JS QE TE TERHIQEN MBRAPA */
+
+.footer-color{
+    color: rgba(38,77,228,255);
+    font-size: small;
+}
+
+.htmlLogo{
+    height: 259px;
+    width: 259px;
+    padding-left: 130px;
+    transition: 1s ease;
+}
+
+
+
+.getBack{
+    transition: 1s ease;
+}
+    
+.getBack:hover {
+    webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+.cssLogo{
+    height: 324px;
+    width: 312px;
+}
+
+.htmlColor{
+    color: rgba(241,101,41,255);
+}
+
+.cssColor{
+    color: rgba(60,156,215,255);
+}
+
+.javascriptColor{
+    color: rgba(240,190,37,255);
+}
+
+.javascriptLogo{
+    width: 300px;
+    height: 320px;
+    padding-left: 130px;
+}
+
+
+/* FOTOJA E INSTRUKTORIT E BERE RRETHORE ME BORDER */
+.instruktorLogo{
+    border-radius: 50%;
+    border: 10px solid rgba(220,53,69,255);
+    max-width:430px;
+    max-height:430px;
+    width: auto;
+    height: auto;
+}
+
+
+/* LOGOJA E REACT */
+.toMarginReact{
+    margin-top: 40px;
+}
+
+
+/* STILIZIMI I ACCORDION */
+.accordion{
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.accordionColor{
+    background-color: #d7dfe2;
+}
+
+.buttonToMargin{
+    margin-top: 20px;
+}
+
+.buttonFlex{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* TRE IKONAT NE INDEX */
+.three_icons{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 232px;
+}
+
+.icon_size{
+    height: 100px;
+    width: 100px;
+}
+
+.icon_center_text{
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 255px;
+    color: rgba(250,167,27,255);
+}
+
+
+/* MADHESIA E IKONAVE TE ZANAFILLA E KURSIT */
+.ikona{
+    height: 100px;
+    width: 100px;
+}
+
+.row{
+    align-items: center;;
+}
+
+.text_icon{
+    text-align: center;
+}
+
+
+/* ZVOGELO TEKSTIN TEK ZANAFILLA E KURSIT */
+.minimize{
+    font-size: 15px;
+}
+
+.titulli_shtesave_ngjyra{
+    color: rgb(143, 49, 49);
+}
+
+
+/* QUOTE */
+.blockquote{
+    margin-right: 70px;
+}
+
+.quote_color{
+    color: rgb(243, 152, 167);
+}
+
+
+/* BOTTOM FIXED BORDER FOR PYETJE */
+#accordion-margin-bottom{
+    margin-bottom: 180px;
+}
+
+body{
+    background-color: rgba(242,242,242,255);
+}
+
+
+/* ADD HOVER EFFECT TO TEXT BELOW ICONS + SHINE EFFECT ON TEXT ABOVE THEM*/
+.titulli_siper_ikonave{
+    color: rgba(250,167,27,255);
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#icons_1:hover{
+    color: rgb(143, 120, 18);
+}
+
+#icons_2:hover{
+    color: rgb(143, 120, 18);
+}
+
+#icons_3:hover{
+    color: rgb(143, 120, 18);
+}
+
+#cilesite_tona_hover:hover{
+    color: rgba(250,167,27,255);
+    text-shadow:0 0 5px #c97c48,
+                0 0 25px #eb9e2c,
+                0 0 50px #af712a,
+                0 0 100px #db8844;
+}
